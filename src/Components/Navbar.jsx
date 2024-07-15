@@ -28,7 +28,7 @@ const Navbar = () => {
             {
                 !user &&
                 <li>
-                    <Link to={'/userdashboard'}>Kamal</Link>
+                    <Link to={'/userdashboard'}>Guest</Link>
                 </li>
             }
             {
